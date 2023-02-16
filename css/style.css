@@ -1,0 +1,264 @@
+
+.bg-img{
+    background-image: url(../images-dev/images-dev/intro-bg.jpg);
+    
+    background-color: rgba(0,0,0,1);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    font-size: 60px;
+}
+.first h3::after{
+    content:'';
+    animation: typing 4s infinite;
+}
+@keyframes typing {
+    0%{ content:'|' }
+    3%{ content:'W|' }
+    6%{ content:'We|' }
+    9%{ content:'Web|' }
+    12%{ content:'Web |' }
+    15%{ content:'Web d|' }
+    18%{ content:'Web de|' }
+    21%{ content:'Web dev|' }
+    24%{ content:'Web devel|' }
+    27%{ content:'Web develo|' }
+    29%{ content:'Web develop|' }
+    31%{ content:'Web develope|' }
+    33%{ content:'Web developer|' }
+    35%{ content:'Web develop|' }
+    38%{ content:'Web develo|' }
+    41%{ content:'Web deve|' }
+    42%{ content:'Web dev|' }
+    44%{ content:'Web d|' }
+    46%{ content:'Web|' }
+    48%{ content:'|' }
+    52%{ content:'C|' }
+    55%{ content:'CE|' }
+    57%{ content:'CEO |' }
+    59%{ content:'CEO D|' }
+    62%{ content:'CEO De|' }
+    65%{ content:'CEO Dev|' }
+    68%{ content:'CEO DevF|' }
+    70%{ content:'CEO DevFo|' }
+    72%{ content:'CEO DevFol|' }
+    75%{ content:'CEO DevFolio|' }
+    77%{ content:'CEO DevFoli|' }   
+    79%{ content:'CEO DevFol|' }
+    80%{ content:'CEO DevFo|' }
+    82%{ content:'CEO DevF|' }
+    85%{ content:'CEO Dev|' }
+    89%{ content:'CEO De|' }
+    91%{ content:'CEO D|' }
+    94%{ content:'CEO |' }
+    97%{ content:'CE|' }
+    98%{ content:'C|' }
+    100%{ content:'|' }
+}
+.second img{
+    border-radius: 6px;
+}
+.second{
+    font-size: 17px;
+}
+.blue-line{
+    height: 3px;
+    width: 90px;
+    background-color: #0D6EFD;
+}
+.third .blue-line{
+    height: 6px;
+    width: 30px;
+    background-color: #0D6EFD;
+    margin: auto;
+}
+.third .bg-white{
+    border-radius: 6px;
+}
+ .third i{
+    border:solid 8px #0D6EFD ;
+    transition:  background-color 0.5s, border0.5s ;
+}
+.third i:hover{
+    background-color: #0D6EFD;
+    border: solid 8px rgb(159, 159, 159);
+}
+.background{
+   
+    background-image: url(../images-dev/images-dev/counters-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.layer{
+    background-color: rgb(13, 110, 253,0.7);
+}
+h3.work::after{
+    content: '';
+    animation: numtype 1.5s both;
+ 
+}
+@keyframes numtype {
+0%{content: '0';}
+5%{content: '3';}
+10%{content: '8';}
+15%{content: '13';}
+20%{content: '20';}
+25%{content: '30';}
+30%{content: '60';}
+35%{content: '80';}
+40%{content: '100';}
+45%{content: '130';}
+50%{content: '150';}
+55%{content: '190';}
+60%{content: '200';}
+65%{content: '230';}
+70%{content: '270';}
+75%{content: '290';}
+80%{content: '310';}
+85%{content: '350';}
+90%{content: '390';}
+95%{content: '410';}
+100%{content: '450';}
+
+    
+}
+h3.exp::after{
+    content:'';
+    animation: numtype2 1.5s both;
+}
+@keyframes numtype2 {
+ 0%{content: '0';}
+10%{content: '1';}
+20%{content: '3';}
+30%{content: '5';}
+40%{content: '8';}
+50%{content: '9';}
+60%{content: '11';}
+70%{content: '12';}
+80%{content: '13';}
+90%{content: '14';}
+100%{content: '15';}
+
+}
+h3.clients::after{
+    content: '';
+    animation: numtype3 1.5s both ;
+}
+@keyframes numtype3 {
+    0%{content: '0';}
+5%{content: '9';}
+10%{content: '15';}
+15%{content: '28';}
+20%{content: '33';}
+25%{content: '57';}
+30%{content: '62';}
+35%{content: '120';}
+40%{content: '144';}
+45%{content: '167';}
+50%{content: '190';}
+55%{content: '239';}
+60%{content: '320';}
+65%{content: '333';}
+70%{content: '380';}
+75%{content: '420';}
+80%{content: '460';}
+85%{content: '500';}
+90%{content: '510';}
+95%{content: '530';}
+100%{content: '550';}
+    
+}
+h3.awards::after{
+content: '';
+animation: numtype4 1.5s both;
+}
+@keyframes numtype4 {
+    0%{content: '0';}
+10%{content: '3';}
+20%{content: '5';}
+30%{content: '12';}
+40%{content: '18';}
+50%{content: '24';}
+60%{content: '29';}
+70%{content: '32';}
+80%{content: '35';}
+90%{content: '36';}
+100%{content: '37';}
+}
+.fourth{
+    color: white;
+}
+.fourth i{
+    border: 8px solid rgb(159, 159, 159);
+}
+.plus-icon{
+    border-radius: 50%;
+    padding: 5px;
+    border: 5px solid rgb(13, 110, 253,0.7);
+    height: 35px;
+}
+.fifth img{
+    transition: transform 1s;
+}
+.fifth img:hover{
+ transform: scale(1.1);
+}
+
+.background2{
+   
+    background-image: url(../images-dev/images-dev/overlay-bg.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+.card-body img{
+    width: 20px;
+}
+.card-title a{
+    color: black;
+    transition: color 1s;
+}
+ .card-title a:hover{
+color: #0D6EFD;
+}
+.box{
+ background-color: #0D6EFD;
+ width: 87px;
+ position: relative;
+ bottom: 30;
+ left: 70;
+ color: white;
+ text-align: center;
+ font-family:Georgia, 'Times New Roman', Times, serif
+}
+.form{
+    width: 45%;
+}
+.txt{
+    width: 45%;
+}
+.btn-primary{
+    width: 30%;
+}
+.logos i{
+    color: #0D6EFD;
+}
+.logo-brands i{
+border: 3px solid #0D6EFD;
+height: 50;
+border-radius: 50%;
+padding: 15px;
+transition:  background-color 0.5s, border0.5s ;
+
+}
+
+.logo-brands i:hover{
+    background-color: #0D6EFD;
+    border-color: rgb(159, 159, 159);
+}
